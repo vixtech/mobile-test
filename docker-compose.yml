@@ -2,8 +2,7 @@ version: '3.4'
 
 services:
   gitea:
-    # image: vixcorp/mobile-test
-    image: jefersondaniel/vix-mobile-test
+    image: vixcorp/mobile-test
     container_name: vix-mobile-test
     ports:
       - "127.0.0.1:9191:9191" # 1st gitea
