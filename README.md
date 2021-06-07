@@ -1,4 +1,4 @@
-X FRONTEND TEST
+# MOBILE TEST
 
 ### Requirements
 - Have an account on [Docker Hub](https://hub.docker.com/)
