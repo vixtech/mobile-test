@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  gitea:
+    # image: vixcorp/mobile-test
+    image: jefersondaniel/vix-mobile-test
+    container_name: vix-mobile-test
+    ports:
+      - "127.0.0.1:9191:9191" # 1st gitea
+      - "127.0.0.1:8181:80"   # 2nd mobile app
+      - "127.0.0.1:8080:8080" # 3rd drone
+      - "127.0.0.1:2222:22"   # 4th ssh
+
+networks:
+  default:
